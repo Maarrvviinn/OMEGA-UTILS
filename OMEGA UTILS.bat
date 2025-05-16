@@ -1,6 +1,6 @@
 @echo off
 chcp 65001
-title OMEGA UTILS by zOmegaSkiller (v2.8)
+title OMEGA UTILS by zOmegaSkiller (v2.9)
 
 
 :startup1
@@ -101,9 +101,9 @@ goto menu
 :ADOBE
 cls
 color 5
-echo loading...
-powershell -Command "& {irm y.gy/toolbox | iex}"
-exit
+start https://wiki.dbzer0.com/genp-guides/guide/
+:: OLD COMMAND / USING OUTDATED CODE: powershell -Command "& {irm y.gy/toolbox | iex}"
+goto menu
 
 
 :MICROSOFT
