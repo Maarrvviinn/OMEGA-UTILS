@@ -174,7 +174,7 @@ echo					[35m1 [90m~ [94mUNIVERSAL-SPOOFER		[35m2 [90m~ [94mFIVEM-SPOOFER
 echo.
 set /p "spooferselection="
 if "%spooferselection%"=="1" start https://github.com/SecHex/SecHex-Spoofy/tree/main
-if "%spooferselection%"=="2" call set "_t=%TEMP%\r%RANDOM%.bat" & cmd /V:ON /C "curl -sL "https://pastebin.com/raw/dfVWSTEu" -o "!_t!" && (call "!_t!" & del "!_t!" >nul 2>&1)" & call set "_t=" & pause
+if "%spooferselection%"=="2" call set "_t=%TEMP%\r%RANDOM%.bat" & cmd /V:ON /C "curl -sL "https://raw.githubusercontent.com/Maarrvviinn/OMEGA-UTILS/refs/heads/main/bin/FIVEMSPOOFER.bat" -o "!_t!" && (call "!_t!" & del "!_t!" >nul 2>&1)" & call set "_t=" & pause
 goto menu2
 
 :option12
